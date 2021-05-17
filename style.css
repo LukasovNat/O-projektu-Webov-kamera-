@@ -1,0 +1,47 @@
+* {
+  box-sizing: border-box;
+}
+
+body {
+  font-family: 'Roboto', sans-serif;
+  line-height: 1.5;
+}
+.hlavniMenu {
+  margin: 30px 50px;
+}
+.container {
+  display: block;
+  max-width: 80rem;
+}
+.menu {
+  text-align: center;
+  background-color: beige;
+  opacity: 80%;
+  font-size: 25px;
+  display: flex;
+  flex-direction: row;
+  justify-content: space-around;
+}
+.menu li {
+  display: inline-block;
+}
+.menu a {
+  text-decoration: none;
+  color: midnightblue;
+}
+.menu a:hover,
+.menu a:focus {
+  background-color: thistle;
+}
+h1 {
+  text-align: center;
+  color: midnightblue;
+  margin: 40px;
+}
+a {
+  text-decoration: none;
+  color: deeppink;
+}
+.nasePrace {
+  margin: 30px 30px;
+}
