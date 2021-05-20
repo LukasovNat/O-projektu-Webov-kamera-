@@ -62,3 +62,14 @@ a {
   text-align: center;
   margin-top: 30px;
 }
+
+.about {
+  display: flex;
+  flex-direction: column;
+  margin: 30px;
+}
+
+.profil {
+  display: flex;
+  margin: 30px;
+}
